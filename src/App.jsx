@@ -13,7 +13,6 @@ import Slider from "./Components/Slider";
 import ContactForm from "./Components/ContactForm";
 import Home from "./Components/Home";
 
-
 function App() {
   return (
     <>

@@ -9,17 +9,17 @@ import {
   FormItem,
   FormControl,
   FormMessage,
-} from "../components/ui/form";
-import { Input } from "../components/ui/input";
-import { Textarea } from "../components/ui/textarea";
-import { Button } from "../components/ui/button";
+} from "../Components/ui/form";
+import { Input } from "../Components/ui/input";
+import { Textarea } from "../Components/ui/textarea";
+import { Button } from "../Components/ui/button";
 import {
   Select,
   SelectTrigger,
   SelectValue,
   SelectContent,
   SelectItem,
-} from "../components/ui/select";
+} from "../Components/ui/select";
 import { useState } from "react";
 import { toast } from "sonner";
 import Contact from "./Contact";

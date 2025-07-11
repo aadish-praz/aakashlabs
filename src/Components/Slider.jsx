@@ -1,12 +1,12 @@
 import * as React from "react";
-import { Card, CardContent } from "@/components/ui/card";
+import { Card, CardContent } from "@/Components/ui/card";
 import {
   Carousel,
   CarouselContent,
   CarouselItem,
   CarouselNext,
   CarouselPrevious,
-} from "@/components/ui/carousel";
+} from "@/Components/ui/carousel";
 import photo1 from "../assets/photo1.jpg";
 import photo2 from "../assets/photo2.jpg";
 import photo3 from "../assets/photo3.jpg";
@@ -70,7 +70,10 @@ const testimonials = [
 
 const Slider = () => {
   return (
-    <section id="testimonials" className="py-12 px-4 sm:px-6 lg:px-8 bg-gray-50">
+    <section
+      id="testimonials"
+      className="py-12 px-4 sm:px-6 lg:px-8 bg-gray-50"
+    >
       <div className="max-w-7xl mx-auto">
         <h2 className="text-3xl md:text-4xl font-bold text-blue-900 mb-8 mb-gray-50  text-center md:text-left">
           Our Testimonials

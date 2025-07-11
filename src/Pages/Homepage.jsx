@@ -12,13 +12,13 @@ import { Toaster } from "sonner";
 const Homepage = () => {
   return (
     <>
-    <div className="bg-gray-50">
-      <Home />
-      <Aboutus />
-      <OurTeam />
-      <Slider />
-      <Toaster position="top-center" />
-      <ContactForm />
+      <div className="bg-gray-50">
+        <Home />
+        <Aboutus />
+        <OurTeam />
+        <Slider />
+        <Toaster position="top-center" />
+        <ContactForm />
       </div>
     </>
   );
